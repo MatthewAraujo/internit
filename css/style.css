@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px 0;
+}
+li{
+    list-style: none;
+}
+header a{
+    color: black;
+    text-decoration: none;
+}
+.center{
+    width: 1280px;
+    margin: auto;
+}
+.logo{
+    width: 95%;
+    margin: auto;
+    min-height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+main{
+    height: 720px;
+    margin-top: 70px; 
+}
+
+.home img{
+    margin-top: 1rem;
+    margin-left: 313px
+}
+.home #lazer{
+    position: absolute;
+    margin-top: -230px;
+    margin-left:345px ;
+    font-size: 72px;
+    color:white
+}
+
+.home #as{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 347px;
+    color:  rgba(0, 0, 0, 0.5);
+    background-color:rgba(251, 252, 253, 0.94);
+    padding: 0.5rem;
+}
+.home a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+.empreendimento h1{
+    margin-top: 30px;
+    margin-left: 313px;
+}
+.empreendimento p{
+    margin-top: 40px;
+    margin-left: 350px;
+    margin-right: 1200px;
+    text-align: justify;
+}
+.empreendimento img{
+    margin-left: 960px;
+    margin-top: -450px;
+}
+.fotos1{
+    margin-top:-200px;
+    margin-left: -620px;
+}
+.fotos2{
+    margin-top: -20px;
+    margin-left: -410px;
+}
+.fotos3{
+    margin-top: -20px;
+    margin-left: -200px;
+}
+.plantas img{
+    margin-top: 175px;
+    margin-left: 313px;
+}
+.plantas-text h2{
+    font-size: 36px;
+}
+.plantas-text{
+    margin-top: -1060px;
+    margin-left: 1500px;
+}
+.plantas button{
+    display: flex;
+    margin-left: 100px;
+}
+
+.btn1{
+    margin-top: 50px;
+}
+.btn1{
+    text-align: center;
+    justify-content: center;
+    padding-top: 17px;
+    border:none;
+    background-color:  #E8E8E8;
+    border-radius: 10px;
+    width:254px;
+    height:56px;
+}
+
+
+@media(max-width: 1280px){
+    .center{
+        width: 100%;
+    }
+}
