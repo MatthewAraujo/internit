@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script defer src="./js/index.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -13,23 +14,23 @@
             <nav class="logo">
                 <a href="index.html">Logo</a>
                 <ul class="nav-menu">
-                   <li class="nav-link"><a href="#">Home</a></li>
-                    <li class="nav-link"><a href="#">O Empreendimento</a></li>
-                    <li class="nav-link"><a href="#">Plantas</a></li>
+                   <li class="nav-link"><a href="#home">Home</a></li>
+                    <li class="nav-link"><a href="#empreendimento">O Empreendimento</a></li>
+                    <li class="nav-link"><a href="#plantas">Plantas</a></li>
                     <li class="nav-link"><a href="#">Localização</a></li>
-                    <li class="nav-link"><a href="#">Contato</a></li>
+                    <li class="nav-link"><a href="#contato">Contato</a></li>
                 </ul>
             </nav>        
         </div>
     </header>
     <main>
-        <section class="home">
-            <img src="./images/piscina.png.png" alt="">
+        <section id="home">
+            <img id="img" src="./images/piscina.png" alt="">
             <p id="lazer">LAZER À UM PASSO</p>
             <p id="as"><a href="#">MARQUE UMA VISITA</a></p>
 
         </section>
-        <section class="empreendimento">
+        <section id="empreendimento">
             <h1>O EMPREENDIMENTO</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia voluptatum atque blanditiis dignissimos, totam aliquam ad consectetur eos ab pariatur nostrum at voluptas suscipit distinctio debitis fuga et unde inventore.
             Id sed, earum sapiente corrupti suscipit omnis autem possimus! Incidunt recusandae dolores, perspiciatis rem quaerat tenetur numquam nihil tempore quo debitis voluptates voluptate, possimus, reiciendis dolore blanditiis illum ea quisquam!
@@ -45,13 +46,13 @@
                     <img src="./images/fotos3.png" alt="">
                 </div>
         </section>
-        <section class="plantas">
-            <img src="./images/planta1.png" alt="2quartos">
+        <section id="plantas">
+            <img src="./images/quarto2.png" id="figura" alt="2quartos">
             <div class="plantas-text">
                 <h2>Plantas</h2>
                 <div class="button"></div>
-                    <button class="btn1">3 QUARTOS</button>
-                    <button class="btn1">2 QUARTOS</button>
+                    <button id="q3" onclick="q3()" class="btn1">3 QUARTOS</button>
+                    <button id="q2" onclick="q2()" class="btn1">2 QUARTOS</button>
                     <button class="btn1">COBERTURA</button>
                 </div>
             </div>
@@ -73,8 +74,8 @@
             </div>
             <img src="./images/local.png" alt="">
         </section>
-        <section class="contato">
-            <img src="./images/piscina.png.png">
+        <section id="contato">
+            <img src="./images/piscina.png">
             <div class="contact-text">    
                 <h2 >Ficou interessado?</h2>
                 <p>Preencha o formulario abaixo e um de nossos consultores entrará em contato</p>

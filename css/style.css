@@ -24,9 +24,13 @@ header a{
     color: black;
     text-decoration: none;
 }
+header{
+    background-color: rgba(251, 252, 253, 0.94);
+}
 .center{
     width: 1280px;
     margin: auto;
+    
 }
 .logo{
     width: 95%;
@@ -47,11 +51,12 @@ main{
     margin-top: 70px; 
 }
 
-.home img{
+#home img{
     margin-top: 1rem;
-    margin-left: 313px
+    margin-left: 313px;
+    cursor: pointer;
 }
-.home #lazer{
+#home #lazer{
     position: absolute;
     margin-top: -230px;
     margin-left:345px ;
@@ -59,7 +64,7 @@ main{
     color:white
 }
 
-.home #as{
+#home #as{
     position: absolute;
     margin-top: -100px;
     margin-left: 347px;
@@ -67,21 +72,21 @@ main{
     background-color:rgba(251, 252, 253, 0.94);
     padding: 0.5rem;
 }
-.home a{
+#home a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
 }
-.empreendimento h1{
+#empreendimento h1{
     margin-top: 30px;
     margin-left: 313px;
 }
-.empreendimento p{
+#empreendimento p{
     margin-top: 40px;
     margin-left: 350px;
     margin-right: 1200px;
     text-align: justify;
 }
-.empreendimento img{
+#empreendimento img{
     margin-left: 960px;
     margin-top: -450px;
 }
@@ -97,7 +102,7 @@ main{
     margin-top: -20px;
     margin-left: -200px;
 }
-.plantas img{
+#plantas img{
     margin-top: 175px;
     margin-left: 313px;
 }
@@ -108,11 +113,14 @@ main{
     margin-top: -1060px;
     margin-left: 1500px;
 }
-.plantas button{
+#plantas button{
     display: flex;
     margin-left: 100px;
 }
-
+#plantas button:hover{
+    background-color:#FFB41D;
+    cursor: pointer;
+}
 .btn1{
     margin-top: 50px;
 }
@@ -147,7 +155,7 @@ main{
     margin-top: 60px;
     margin-left: 60px;
 }
-.contato{
+#contato{
     position: relative;
     margin-left: 313px;
 }
